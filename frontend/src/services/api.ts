@@ -1,8 +1,10 @@
 import axios from "axios";
 
+// Use environment variable, fallback to localhost
 const API = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: process.env.REACT_APP_API_URL || "http://localhost:3000/api",
 });
+
 
 // Bus APIs
 export const searchBuses = (params: any) => API.get("/buses", { params });
