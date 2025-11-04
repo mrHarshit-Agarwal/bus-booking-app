@@ -10,6 +10,13 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Live Frontend (Netlify): https://bus-system-assignment.netlify.app/
+
+Live Backend (Render): https://bus-booking-assignment.onrender.com
+
+The frontend is connected to the backend, and all core functionalities (bus search, booking, etc.) are working as expected.
+
+( for search bus - destination: Bangalore to Chennai and date is 25-09-2025)
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
